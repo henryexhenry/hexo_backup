@@ -81,3 +81,11 @@ deploy:
   type: git
   repo: 'https://github.com/henryexhenry/henryexhenry.github.io.git'
   branch: master
+
+# search engine
+# run (npm install hexo-generator-searchdb --save) first
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

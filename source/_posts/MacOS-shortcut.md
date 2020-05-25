@@ -1,7 +1,8 @@
 ---
 title: MacOS_shortcut
 date: 2020-05-25 10:47:30
-tags:
+tags: MacOS
+categories: note
 ---
 
 # MacOS 快捷键
