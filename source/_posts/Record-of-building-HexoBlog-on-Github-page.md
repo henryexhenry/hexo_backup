@@ -8,7 +8,9 @@ tags:
 categories: record
 ---
 
-# Record of building a free blog with Hexo, Github and Node.js
+This article contains step by step tutorial to set up a tech blog on Github server, basic operations of Hexo blog, and some useful plugins.
+
+<!-- more -->
 
 ## Installations
 
@@ -131,6 +133,31 @@ Then hexo will create a folder named (categories) and a folder named (tags), wit
     local_search:
       enable: true
     ```
+
+## Word counting
+
+This feature is supported by the Next theme with dependancy `hexo-wordcount`
+
+it supports word count and reading minutes estimation
+
+1. Install the dependancy by `npm i --save hexo-wordcount`
+
+2. configure `themes/next/_config.yml`
+
+    ```yml
+    # Post wordcount display settings
+    # Dependencies: https://github.com/willin/hexo-wordcount
+    post_wordcount:
+        item_text: true
+        wordcount: true
+        min2read: true
+        totalcount: false
+        separated_meta: true
+    ```
+
+## other skills
+
+- put `<!-- more -->` in your post to show **read more** button at that exact position.
 
 ## References
 

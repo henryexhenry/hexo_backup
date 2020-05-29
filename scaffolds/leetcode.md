@@ -1,11 +1,9 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags: Algorithm
+tags: # Algorithm | Data Structure
 categories: leetcode
 ---
-
-# title
 
 ## Problem
 
@@ -16,12 +14,17 @@ categories: leetcode
 ## Solution
 
 ### Sol 1
+<!-- Thinking -->
 
+<!-- Coding -->
 ```python
 
 ```
 
 ### Sol 2
+<!-- Thinking -->
 
+<!-- Coding -->
 ```python
+
 ```

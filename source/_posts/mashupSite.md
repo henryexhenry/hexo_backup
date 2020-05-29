@@ -4,18 +4,16 @@ date: 2020-05-25 16:09:36
 tags: 
     - Django
     - SEO
-categories: Record
+categories: record
 ---
 
-# Mashup site by Django
+This is a team project about developing a web application of introduction of Marvel characters. The technologies we used are **Django** for web dev, **beautifulsoup** for parsing html, **Bootstrap** for frontend design and **json** for storage, **Google Statistic** for SEO.
+
+<!--more-->
 
 <p align="center">
     <img src="https://i.loli.net/2019/09/28/O2rgluRnKFBiqmD.png" width="400" height="400" />
 </p>
-
-## Introduction
-
-This is a team project about developing a web application of introduction of Marvel characters. The technologies we used are **Django** for web dev, **beautifulsoup** for parsing html, **Bootstrap** for frontend design and **json** for storage, **Google Statistic** for SEO.
 
 ## Problem statement
 
