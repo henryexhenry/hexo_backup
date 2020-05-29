@@ -21,15 +21,21 @@ function run() {
 function hexo_backup(){
     echo("+++ hexo_backup start");
         cd('/Users/hy/Developments/hexo_github');
-        if (exec('git add --all').code !== 0) {
+        var git_add = exec('git add --all')
+        if (git_add.code !== 0) {
+            echo(git_add.stdout)
             echo('Error: Git add failed');
             exit(1);
         }
-        if (exec('git commit -am "Auto backup"').code !== 0) {
+        var git_commit = exec('git commit -am "Auto backup"')
+        if (git_commit.code !== 0) {
+            echo(git_commit.stdout)
             echo('Error: Git commit failed');
             exit(1);
         }
-        if (exec('git push origin master').code !== 0) {
+        var git_push = exec('git push origin master')
+        if (git_push.code !== 0) {
+            echo(git_push.stdout)
             echo('Error: Git push failed');
             exit(1);
         }
@@ -39,17 +45,23 @@ function hexo_backup(){
 function hexo_next_backup(){
     echo("+++ hexo_next_backup start");
     cd('/Users/hy/Developments/hexo_github/themes/next'); 
-    if (exec('git add --all').code !== 0) {
-        echo('Error: Git add failed');
-        exit(1);
-    }
-    if (exec('git commit -am "Auto backup"').code !== 0) {
-        echo('Error: Git commit failed');
-        exit(1);
-    }
-    if (exec('git push origin master').code !== 0) {
-        echo('Error: Git push failed');
-        exit(1);
-    }
+    var git_add = exec('git add --all')
+        if (git_add.code !== 0) {
+            echo(git_add.stdout)
+            echo('Error: Git add failed');
+            exit(1);
+        }
+        var git_commit = exec('git commit -am "Auto backup"')
+        if (git_commit.code !== 0) {
+            echo(git_commit.stdout)
+            echo('Error: Git commit failed');
+            exit(1);
+        }
+        var git_push = exec('git push origin master')
+        if (git_push.code !== 0) {
+            echo(git_push.stdout)
+            echo('Error: Git push failed');
+            exit(1);
+        }
     echo("+++ hexo_next_backup Complete")
 }
