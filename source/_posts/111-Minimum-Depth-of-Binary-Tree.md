@@ -7,7 +7,7 @@ tags:
 
 ## Problem
 
-```
+```text
 Given a binary tree, find its minimum depth.
 
 The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
@@ -33,7 +33,7 @@ return its minimum depth = 2.
 recursively find the smaller counting of child nodes.
 if both children exist:
 
-```
+```text
     A
    / \
   L   R
@@ -43,7 +43,7 @@ minDepth of A should be 2 (take min)
 
 if only one child exist:
 
-```
+```text
     B
    /
   L

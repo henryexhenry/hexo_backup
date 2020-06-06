@@ -7,7 +7,7 @@ tags:
 
 ## Problem
 
-```
+```text
 Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
 
 For example:
@@ -26,12 +26,17 @@ return its bottom-up level order traversal as:
   [3]
 ]
 ```
+<!-- more -->
 
 ## Solution
 
 ### Sol 1 BFS
 <!-- Thinking -->
+We need to traverse the binary tree and remember node level.
 
+If we traverse the tree layer by layer, it may be simpler to get the node level.
+
+So I traverse the binary tree using BFS.
 
 <!-- Coding -->
 ```python

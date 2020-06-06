@@ -2,12 +2,14 @@
 title: 98. Validate Binary Search Tree
 categories: leetcode
 date: 2020-05-28 11:32:57
-tags:
+tags: 
+    - BST
+    - recusion
 ---
 
 ## Problem
 
-```
+```text
 Given a binary tree, determine if it is a valid binary search tree (BST).
 
 Assume a BST is defined as follows:
@@ -42,7 +44,9 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 
 ### Sol 1 recusive
 <!-- Thinking -->
-pass upper and lower bound into recursive function and return a boolean value
+Acording to rule of BST, the current node must be larger than its left child and all of its offspring.
+
+we can to pass the upper and lower boundary into a recursive function
 
 <!-- Coding -->
 ```python
@@ -70,9 +74,27 @@ class Solution:
 
 ### Sol 2
 <!-- Thinking -->
-traverse the tree by inorder traverse, then check if the order is sorted.
+traverse the tree by inorder traverse, and check if the order is sorted.
 
 <!-- Coding -->
 ```python
-
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def isValidBST(self, root: TreeNode) -> bool:
+        stack, last = [], float('-inf')
+        while stack or root:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            if root.val <= last:
+                return False
+            last = root.val
+            root = root.right
+        return True
 ```
