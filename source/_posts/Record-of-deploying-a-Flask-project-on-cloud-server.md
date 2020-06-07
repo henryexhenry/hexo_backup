@@ -2,6 +2,11 @@
 title: Record of deploying a Flask project on cloud server
 date: 2020-05-29 23:37:42
 tags:
+  - Deployment
+  - Gunicorn
+  - Supervisor
+  - Flask
+categories: record
 ---
 
 This is a record of deploying a Flask application on a CentOS7 CVM server. This article includes basic environment setting, tools installation and some tutorial links. Python3.6, Flask, Gunicorn, Supervisor will be used here.

@@ -1,7 +1,10 @@
 ---
 title: Get to know Container
 date: 2020-06-06 20:05:58
+categories: note
 tags:
+    - Container
+    - Docker
 ---
 
 ## What is container
@@ -38,7 +41,7 @@ By containerizing the application platform and its dependencies, differences in 
 
 ## Container vs Virtual Machine
 
-![](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1104696765,4217423537&fm=11&gp=0.jpg)
+![container vs VM](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1104696765,4217423537&fm=11&gp=0.jpg)
 
 Containers share OS kernel and work independently; VM contains an entire OS system for each app
 

@@ -4,7 +4,7 @@ categories: leetcode
 date: 2020-05-28 11:32:57
 tags: 
     - BST
-    - recusion
+    - Recursion
 ---
 
 ## Problem

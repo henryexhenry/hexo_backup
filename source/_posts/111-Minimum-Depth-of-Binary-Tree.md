@@ -3,6 +3,8 @@ title: 111. Minimum Depth of Binary Tree
 categories: leetcode
 date: 2020-06-01 11:20:53
 tags:
+    - Recursion
+    - BFS
 ---
 
 ## Problem
@@ -69,7 +71,7 @@ class Solution:
             return min(1+self.minDepth(root.left), 1+self.minDepth(root.right))
 ```
 
-### Sol 2
+### Sol 2 BFS
 <!-- Thinking -->
 BFS should be faster in this problem.
 

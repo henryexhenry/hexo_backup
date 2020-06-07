@@ -2,6 +2,9 @@
 title: celery 分布式任务队列
 date: 2020-06-03 23:42:58
 tags:
+    - Celery
+    - Distributed Computing
+categories: note
 ---
 
 celery 是基于 分布式信息传递 的 异步任务队列。他主要应用于 实时任务，但也支持 定时任务 (使用 celery beat 作为 scheduler)。celery 简单，高效，可扩展 的优点使它成为最主流的 Python 分布式框架。

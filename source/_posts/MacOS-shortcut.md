@@ -5,11 +5,9 @@ tags: MacOS
 categories: note
 ---
 
-# MacOS 快捷键
-
 ## 全局
 
-```
+```text
 Command + Shift + P / F1 显示命令面板
 Command + P 快速打开
 Command + Shift + N 打开新窗口
@@ -18,7 +16,7 @@ Command + W 关闭窗口
 
 ## 基本
 
-```
+```text
 Command + X 剪切（未选中文本的情况下，剪切光标所在行）
 Command + C 复制（未选中文本的情况下，复制光标所在行）
 Option + Up 向上移动行
@@ -54,7 +52,7 @@ Option + Z 自动换行、取消自动换行
 
 ## 多光标与选择
 
-```
+```text
 Option + 点击 插入多个光标
 Command + Option + Up 向上插入光标
 Command + Option + Down 向下插入光标
@@ -76,7 +74,7 @@ Command + Shift + Option + PgDown 列选择 向下翻页
 
 ## 查找替换
 
-```
+```text
 Command + F 查找
 Command + Option + F 替换
 Command + G 查找下一个
@@ -88,7 +86,7 @@ Command + K Command + D 移除前一个向下选中相同内容
 
 ## 进阶
 
-```
+```text
 Ctrl + Space 打开建议
 Command + Shift + Space 参数提示
 Tab Emmet插件缩写补全
@@ -108,7 +106,7 @@ Command + K M 更改文件语言
 
 ## 导航
 
-```
+```text
 Command + T 显示所有符号
 Ctrl + G 跳转至某行
 Command + P 跳转到某个文件
@@ -124,7 +122,7 @@ Ctrl + Shift + M Tab 切换焦点
 
 ## 编辑器管理
 
-```
+```text
 Command + W 关闭编辑器
 Command + K F 关闭文件夹
 Command + \ 编辑器分屏
@@ -141,7 +139,7 @@ Command + K Right 激活右侧编辑组
 
 ## 文件管理
 
-```
+```text
 Command + N 新建文件
 Command + O 打开文件
 Command + S 保存文件
@@ -160,7 +158,7 @@ Command + K O 新窗口打开当前文件
 
 ## 显示
 
-```
+```text
 Command + Ctrl + F 全屏、退出全屏
 Command + Option + 1 切换编辑器分屏方式（横、竖）
 Command + + 放大
@@ -181,7 +179,7 @@ Command + K V 分屏显示 Markdown预览窗口
 
 ## 调试
 
-```
+```text
 F9 设置 或 取消断点
 F5 开始 或 继续
 F11 进入
@@ -192,7 +190,7 @@ Command + K Command + I 显示悬停信息
 
 ## 集成终端
 
-```
+```text
 Ctrl + ` 显示终端
 Ctrl + Shift + ` 新建终端
 Command + Up 向上滚动
@@ -202,5 +200,6 @@ PgDown 向下翻页
 Command + Home 滚动到顶部
 Command + End 滚动到底部
 
-```
-转至[小谷xg](https://segmentfault.com/a/1190000012811886)
+```text
+
+转自 [小谷xg](https://segmentfault.com/a/1190000012811886)
