@@ -10,7 +10,7 @@ categories: leetcode
 ```
 
 ```
-
+<!-- more -->
 ## Solution
 
 ### Sol 1

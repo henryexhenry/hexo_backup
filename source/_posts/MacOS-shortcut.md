@@ -4,7 +4,7 @@ date: 2020-05-25 10:47:30
 tags: MacOS
 categories: note
 ---
-
+<!-- more -->
 ## 全局
 
 ```text
